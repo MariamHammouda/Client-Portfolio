@@ -1,4 +1,12 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 
+/*--------- te select all html elements and style them with the same style : --------- */
+/* apply outfit font for all html elements */
+
+*{
+  font-family: outfit;
+}
